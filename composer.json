@@ -1,0 +1,19 @@
+{
+    "name": "dimataitproblem/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "William Soeparman",
+            "email": "williamsoeparman@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DimataItProblem\\": "src/"
+        }
+    }
+}
